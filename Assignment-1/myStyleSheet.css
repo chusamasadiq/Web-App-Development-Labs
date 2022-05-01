@@ -1,0 +1,26 @@
+.navbar
+{
+    background-color: lightgreen;
+    padding: 10px;
+    margin: auto;
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+.nav li:hover
+{
+    background-color: rgb(233, 233, 233);
+}
+.Heading
+{
+    text-align: center;
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: green;
+}
+.container
+{
+    text-align: left;
+    font-size: 18px;
+   
+}

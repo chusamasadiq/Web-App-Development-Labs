@@ -1,0 +1,59 @@
+.navbar
+{
+    margin: auto;
+    padding: 15px;
+    background-color: rgb(184, 45, 45);
+    
+}
+
+.navbar-brand
+{
+    color: white;
+    font-size: 30px;
+}
+
+.nav-item
+{
+    color: white;
+    padding: 5px;
+    font-size: 15px;
+} 
+
+.Category
+{
+    color:black;
+    position: relative;
+    padding: 30px;
+    
+}
+
+.Product
+{   
+    color:black;
+    position: relative;
+    padding: 20px;
+}
+
+.carousel-caption
+{
+    position:absolute;
+    top: 2%;
+    left: -10%;
+}
+.carousel-caption h1
+{
+    font-size: 70px;
+    font-weight: 400;
+}
+.footer
+{
+    color: white;
+    margin: top;
+    padding: 32px;
+    background-color: black;
+    text-align: center;
+}
+.SocialMedia
+{
+    padding: 10px;
+}

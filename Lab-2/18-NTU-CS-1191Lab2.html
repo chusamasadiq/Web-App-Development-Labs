@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        th{
+            text-align: left;
+            vertical-align: unset;
+        }
+
+    </style>
+</head>
+
+<body>
+    <table border="1px" >
+        <tr>
+            <th>
+                <label>First Name</label><br>
+                <input type="text" autofocus placeholder="First Name Only"><br>
+                <label>Last Name</label><br>
+                <input type="text" placeholder="Last Name Only"><br>
+                <label>Date Of Birth</label><br>
+                <input type="date" placeholder="dd-----yyyy"><br>
+                <label>Email</label><br>
+                <input type="email" placeholder="example@domain.com"><br>
+                <label>URL</label><br>
+                <input type="url" placeholder="http://mysite.com"><br>
+                <label>Telephone</label><br>
+                <input type="text" placeholder="Eg +447000 00000"><br>
+                <label>Shoesize</label><br>
+                <input type="number" value="9" readonly><br>
+                <label>Flying Skill level(1 low - 100 high</label><br>
+                <input type="range" min="0" max="10"><br>
+            </th>
+        
+
+        <th width="300">
+                <label>Type</label><br>
+                <input type="radio" name="CardType" value="VISA" checked aria-value="VISA"><label>VISA</label>
+                <input type="radio" name="CardType" value="Mastercard"><label>Mastercard</label>
+                <input type="radio" name="CardType" value="AMEX"><label>AMEX</label><br>
+                <label>Time</label><br>
+                <input type="time"><br>
+                <br>
+                <label>Video Tutorial</label><br>
+                <video controls width="300" height="fit">
+                    <source src="Video/Cycling At Sunset Stock Video - Download Video Clip Now - iStock.mp4" type="video/WebM">
+                </video><br>
+                <label>Audio Tutorial</label><br>
+                <audio controls>
+                    <source src="Audio/nokia-53284.mp3" type="audio/mpeg">
+                </audio><br>                
+                <input type="button" value="Submit">
+                <input type="button" value="Reset">
+        </th>
+        </tr>
+    </table>
+</body>
+
+</html>

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="Jquery.js"></script>
+
+    <link rel="stylesheet" href="myStyleSheet.css">
+
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+    <title>Template</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <h3 class="heading">Event Registrgation Form</h3>
+        <form id="Registration_form">
+            <div class="form-group row pt-3">
+                <label for="name" class="col-sm-2 col-form-label">Name</label>
+                <div class="col-sm-5">
+                    <input type="text" class="form-control" id="fname">
+                    <span>First Name</span>
+                    <span class="error_form" id="fname_error_message"></span>
+                </div>
+
+                <div class="col-sm-5">
+                    <input type="text" class="form-control" id="lname">
+                    <span>Last Name</span>
+                    <span class="error_form" id="lname_error_message"></span>
+
+                </div>
+
+            </div>
+
+            <div class="form-group row pt-2">
+                <label for="company" class="col-sm-2 col-form-label">Company</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" id="Company">
+                    <span class="error_form" id="company_error_message"></span>
+                </div>
+            </div>
+
+            <div class="form-group row pt-3">
+                <label for="email" class="col-sm-2 col-form-label">Email</label>
+                <div class="col-sm-10">
+                    <input type="email" class="form-control" id="email">
+                    <span class="error_form" id="email_error_message"></span>
+                </div>
+            </div>
+
+            <div class="form-group row pt-3">
+                <label for="phone" class="col-sm-2 col-form-label">Phone</label>
+                <div class="col-sm-2">
+                    <input type="text" class="form-control" id="phoneAreaCode">
+                    <span class="error_form" id="Area_error_message"></span>
+                    <span>Area Code</span>
+                </div>
+
+                <div class="col-sm-8">
+                    <input type="text" class="form-control" id="phone">
+                    <span>Phone Number</span>
+                    <span class="error_form" id="PhoneNo_error_message"></span>
+                </div>
+            </div>
+
+            <div class="form-group row pt-2">
+                <label for="subject" class="col-sm-2 col-form-label">Subject</label>
+                <div class="col-sm-10">
+                    <select id="subjectselect" class="form-control">
+                        <option selected> Choose option</option>
+                        <option value="1">Subject 1</option>
+                        <option value="2">Subject 2</option>
+                        <option value="3">Subject 3</option>
+                      </select>
+                </div>
+            </div>
+
+            <div class="form-group row pt-3">
+                <label for="subject" class="col-form-label col-sm-12">Are you an existing customer?</label>
+            </div>
+
+            <div class="form-group">
+                <label class="radio-inline">
+                <input type="radio" id="optradioYes" name="optradio">Yes</label>
+
+                <label class="radio-inline col-sm-6">
+                <input type="radio" id="optradioNo" name="optradio" checked>No</label>
+            </div>
+
+            <button type="submit" class="btn btn-danger" id="Registration_btn">REGISTER</button>
+
+
+        </form>
+    </div>
+</body>
+
+</html>
